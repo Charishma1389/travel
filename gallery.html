@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MSM Voyages - Votre agence de voyage</title>
+
+    <!-- website icon -->
+    <link rel="icon" href="assets/images/logo/icon.png" />
+
+    <!-- link to file css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- font aewsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="loader-container">
+      <span class="loader"></span>
+    </div>
+
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="header_email">
+            <i class="fa-solid fa-paper-plane"></i>
+            <div class="content">
+              <h5>email :</h5>
+              <h6>msmvoyages@info.com</h6>
+            </div>
+          </div>
+
+          <hr />
+
+          <p>Bienvenue sur votre agence de voyage <span>MSM Voyages</span> !</p>
+
+          <hr />
+
+          <ul class="social_link">
+            <a href="https://www.facebook.com/MSMvoyages" target="_blank"
+              ><li><i class="fa-brands fa-facebook"></i></li
+            ></a>
+            <a href="https://www.instagram.com/msm_voyages" target="_blank"
+              ><li><i class="fa-brands fa-instagram"></i></li
+            ></a>
+            <a href="https://www.youtube.com/@msmvoyages/videos" target="_blank"
+              ><li><i class="fa-brands fa-youtube"></i></li
+            ></a>
+            <a href="#"
+              ><li><i class="fa-brands fa-x-twitter"></i></li
+            ></a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main_header">
+        <div class="container">
+          <a href="index.html" class="logo">
+            <img src="assets/images/logo/logo.png" alt="" />
+            <h1>MSM voyages</h1>
+          </a>
+
+          <div class="bg_menu" onclick="close_menu()"></div>
+
+          <nav>
+            <div class="top_menu">
+              <a href="index.html" class="logo_menu">
+                <img src="assets/images/logo/logo.png" alt="" />
+                <h1>MSM Voyages</h1>
+              </a>
+
+              <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+            </div>
+            <div class="menu_phone">
+              <ul>
+                <a href="index.html"><li>accueil</li></a>
+                <a href="about.html"><li>a propos</li></a>
+                <a href="destinations.html"><li>destination</li></a>
+                <a href="gallery.html"><li class="active">gallery</li></a>
+                <a href="contact.html"><li>contact</li></a>
+              </ul>
+              <div class="bottom_menu">
+                <span><i class="fa-solid fa-phone-volume"></i></span>
+                <div class="appeler">
+                  <h4>appeler</h4>
+                  <a href="#">+212 612 345 678</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <a href="#" class="phone_btn">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>appeler</span>
+          </a>
+
+          <i class="fa-solid fa-bars open_menu" onclick="open_menu()"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="top_page">
+      <div class="content">
+        <h1 class="title_page">gallery</h1>
+        <div class="links_top_page">
+          <a href="index.html"><h3>accueil</h3></a>
+          <i class="fa-solid fa-arrow-right"></i>
+          <h3>gallery</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery_sec">
+      <div class="container">
+        <div class="sec_title">
+          <div class="subtitle">
+            <img
+              src="assets/images/subtitle/left-subtitle.svg"
+              alt="Icône de début de sous-titre"
+            />
+            <h3>Galerie</h3>
+            <img
+              src="assets/images/subtitle/right-subtitle.svg"
+              alt="Icône de fin de sous-titre"
+            />
+          </div>
+          <h1>Découvrez Nos Voyages Organisés</h1>
+          <p>
+            Explorez notre galerie de photos pour avoir un aperçu des
+            incroyables expériences de voyage que nous offrons. Chaque image
+            raconte une histoire unique de découverte et d'aventure, capturant
+            les moments mémorables de nos clients lors de nos voyages organisés.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="assets/images/gallery/1.jpg" alt="" />
+            <div class="content">
+              <h2>zagoura</h2>
+              <p>Désert, aventure, dunes, coucher de soleil.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/2.jpg" alt="" />
+            <div class="content">
+              <h2>maka</h2>
+              <p>Histoire, culture, souks, monuments, impériale.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/3.jpg" alt="" />
+            <div class="content">
+              <h2>Chefchaouen</h2>
+              <p>Rues bleues, montagnes, charme, sérénité.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/4.jpg" alt="" />
+            <div class="content">
+              <h2>merzouga</h2>
+              <p>Dunes dorées, campements, étoiles, silence.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/5.jpg" alt="" />
+            <div class="content">
+              <h2>merzouga</h2>
+              <p>Aventure, chameaux, tradition, désert, expérience.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/6.jpg" alt="" />
+            <div class="content">
+              <h2>sindibad</h2>
+              <p>Parc d'attractions, famille, jeux, loisirs.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/7.jpg" alt="" />
+            <div class="content">
+              <h2>merzouga</h2>
+              <p>Sable doré, aventure, mystère, vastes étendues.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/8.jpg" alt="" />
+            <div class="content">
+              <h2>merzouga</h2>
+              <p>Coucher de soleil, dunes, beauté, silence.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/9.jpg" alt="" />
+            <div class="content">
+              <h2>maka</h2>
+              <p>Héritage culturel, architecture, histoire, ambiance animée.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/10.jpg" alt="" />
+            <div class="content">
+              <h2>zagoura</h2>
+              <p>Oasis paisible, tradition, palmiers, désert mystérieux.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/11.jpg" alt="" />
+            <div class="content">
+              <h2>zagoura</h2>
+              <p>Caravane de chameaux, exploration, sable infini.</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/gallery/12.jpg" alt="" />
+            <div class="content">
+              <h2>merzouga</h2>
+              <p>Aventure saharienne, campements nomades, nuits étoilées.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="main_footer">
+          <div class="row">
+            <h1 class="title">MSM Voyages</h1>
+            <p>
+              MSM Voyages vous offre des expériences de voyage exceptionnelles
+              grâce à notre expertise et à notre service personnalisé. Découvrez
+              des destinations uniques, profitez d'offres exclusives et
+              laissez-nous vous guider dans vos aventures à travers le monde.
+            </p>
+          </div>
+
+          <div class="row">
+            <h1 class="title">Liens rapides</h1>
+            <ul class="fast_link">
+              <a href="index.html"
+                ><li>
+                  <i class="fa-solid fa-chevron-right"></i> <span>accueil</span>
+                </li></a
+              >
+              <a href="about.html"
+                ><li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <span>a propos</span>
+                </li></a
+              >
+              <a href="destinations.html"
+                ><li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <span>destination</span>
+                </li></a
+              >
+              <a href="gallery.html"
+                ><li>
+                  <i class="fa-solid fa-chevron-right"></i>
+                  <span>gallery</span>
+                </li></a
+              >
+              <a href="contact.html"
+                ><li>
+                  <i class="fa-solid fa-chevron-right"></i> <span>contact</span>
+                </li></a
+              >
+            </ul>
+          </div>
+
+          <div class="row">
+            <h1 class="title">contact</h1>
+            <ul class="contact_list">
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Salé 11000, MAG 2 Rue Dafar 001</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <span>msmvoyages@info.com</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>+212 612 345 678</span>
+              </li>
+            </ul>
+            <ul class="contact_link">
+              <a href="https://www.facebook.com/MSMvoyages" target="_blank"
+                ><li><i class="fa-brands fa-facebook"></i></li
+              ></a>
+              <a href="https://www.instagram.com/msm_voyages" target="_blank"
+                ><li><i class="fa-brands fa-instagram"></i></li
+              ></a>
+              <a href="https://www.youtube.com/@msmvoyages/videos" target="_blank"
+                ><li><i class="fa-brands fa-youtube"></i></li
+              ></a>
+              <a href="#" target="_blank"
+                ><li><i class="fa-brands fa-x-twitter"></i></li
+              ></a>
+            </ul>
+          </div>
+
+          <div class="row">
+            <h1 class="title">gallery</h1>
+            <div class="footer_images">
+              <img src="assets/images/footer/1.jpg" alt="" />
+              <img src="assets/images/footer/2.jpg" alt="" />
+              <img src="assets/images/footer/3.jpg" alt="" />
+              <img src="assets/images/footer/4.jpg" alt="" />
+              <img src="assets/images/footer/5.jpg" alt="" />
+              <img src="assets/images/footer/6.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="bottom_footer">
+          <p>
+            &copy; <span>MSM Voyages</span>, All Right Reserved. Designed By
+            <a href="https://www.linkedin.com/in/yassine-chmarekh/" target="_blank">Yassine_ChM</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="back_to_top"><i class="fa-solid fa-chevron-up"></i></div>
+
+    <!-- link to files js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
